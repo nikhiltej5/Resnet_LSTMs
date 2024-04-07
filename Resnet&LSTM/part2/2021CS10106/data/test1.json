@@ -1,0 +1,12 @@
+[
+	{
+		"Problem": "a shopkeeper sold an article offering a discount of 5 % and earned a profit of 31.1 % . what would have been the percentage of profit earned if no discount had been offered ?",
+		"linear_formula": "add(n1,const_100)|subtract(const_100,n0)|multiply(#0,const_100)|divide(#2,#1)|subtract(#3,const_100)|",
+		"answer": 38
+	},
+	{
+		"Problem": "what will be the difference between simple and compound interest at 14 % per annum on a sum of rs . 1000 after 4 years ?",
+		"linear_formula": "divide(n0,const_100)|add(#0,const_1)|multiply(n1,#0)|multiply(n2,#2)|power(#1,n2)|multiply(n1,#4)|subtract(#5,n1)|subtract(#6,#3)|",
+		"answer": 129
+	}
+]
